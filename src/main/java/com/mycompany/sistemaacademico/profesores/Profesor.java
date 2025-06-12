@@ -4,7 +4,7 @@
  */
 package com.mycompany.sistemaacademico.profesores;
 
-import com.mycompany.sistemaacademico.Persona.PersonalAcademico;
+import com.mycompany.sistemaacademico.personalacademico.PersonalAcademico;
 
 /**
  *
