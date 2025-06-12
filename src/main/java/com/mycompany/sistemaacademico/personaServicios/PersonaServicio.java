@@ -2,18 +2,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.sistemaacademico.Persona;
+package com.mycompany.sistemaacademico.personaServicios;
+
+import com.mycompany.sistemaacademico.Persona.Empleado;
 
 /**
  *
  * @author User
  */
-public class PersonaServicios extends Empleado {
+public class PersonaServicio extends Empleado {
     private String gremio;
     
     //constructor
 
-    public PersonaServicios(String gremio, double sueldo, String correoInstitucional, int id, String nombre, String correoPersonal, String cedula) {
+    public PersonaServicio(String gremio, double sueldo, String correoInstitucional, int id, String nombre, String correoPersonal, String cedula) {
         super(sueldo, correoInstitucional, id, nombre, correoPersonal, cedula);
         this.gremio = gremio;
     }
