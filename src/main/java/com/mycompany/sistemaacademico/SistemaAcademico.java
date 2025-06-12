@@ -4,7 +4,7 @@
 
 package com.mycompany.sistemaacademico;
 
-import com.mycompany.sistemaacademico.Persona.Estudiantes;
+import com.mycompany.sistemaacademico.Estudiantes.Estudiante;
 import com.mycompany.sistemaacademico.personasInvitadas.PersonaInvitada;
 import com.mycompany.sistemaacademico.personaServicios.PersonaServicio;
 
@@ -20,7 +20,7 @@ public class SistemaAcademico {
         PersonaInvitada invi= new PersonaInvitada ("hombre", 3, "Veronica", "@vero_1230", "0321456");
         System.out.println(""+invi.toString());
         System.out.println("....Datos de Estudiante.......");
-        Estudiantes estudiante=new Estudiantes (321, "@pame.espoch", 10, "Pamela Bravo", "@pame.b","78945" );
+        Estudiante estudiante=new Estudiante (321, "@pame.espoch", 10, "Pamela Bravo", "@pame.b","78945" );
         System.out.println(""+estudiante.toString());
         System.out.println(".......Datos del Personal de Servicio......");
         PersonaServicio servicio=new PersonaServicio ("gremio", 1210, "patricia@gmail", 26, "Liset", "@lis.12", "36985");
